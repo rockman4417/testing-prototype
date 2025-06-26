@@ -44,6 +44,8 @@ export default function App() {
     }
   };
 
+  console.log("test")
+
   return (
     <View style={{ padding: 20, gap: 16, marginTop: 100 }}>
       <Controller
