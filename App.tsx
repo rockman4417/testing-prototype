@@ -32,6 +32,8 @@ export default function App() {
     resolver: zodResolver(formSchema),
   });
 
+  console.log("test")
+
   const [showDatePicker, setShowDatePicker] = React.useState(false);
   const selectedDate = watch('dateOfBirth');
 
